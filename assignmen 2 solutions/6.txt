@@ -1,0 +1,29 @@
+//Program to find the prime numbers between a range of numbers
+
+#include<stdio.h>
+
+
+void main()
+{
+    int i,a,b;
+    printf("Enter the range to find prime numbers in = \n");
+    printf("From : ");
+    scanf("%d",&a);
+    fflush(stdin);
+    printf("To : ");
+    scanf("%d",&b);
+    printf("The prime numbers between %d and %d are = \n",a,b);
+
+    for(a;a<=b;a++)              //loop to increase the given initial number till it reaches the end number
+    {
+        for (i=2;i<=a/2;i++)     //loop to check if number is prime or not
+        {
+            if(a%i==0)
+                break;      
+        }
+        if(i>a/2)
+            printf("    %d",a);        
+    }
+      
+    
+}

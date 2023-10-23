@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+void main()
+{
+    int i=1,n,sum=0;
+    
+    printf("Enter the number of odd terms to display and find their sum = ");
+    scanf("%d",&n);
+    printf("Odd terms are = ");
+
+    while(n>0)
+    {
+        printf("%d  ",i);
+        sum+=i;
+        n--;
+        i+=2;
+    }
+
+    printf("\nThe total sum of odd number upto %d terms is = %d", n,sum);
+}

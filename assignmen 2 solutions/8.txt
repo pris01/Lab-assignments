@@ -1,0 +1,28 @@
+// program to check armstrong number 
+
+#include<stdio.h>
+#include<math.h>
+
+void main()
+{
+    int a,n,i,arm=0;
+    printf("Enter the number = ");
+    scanf("%d",&n);
+    a=n;
+    i=printf("%d",n);
+    printf("\n%d",i);
+    int rem = 0;
+    while(a>0)
+    {
+        rem = a%10;
+        arm = arm + pow(rem,i);
+        printf("%d ",arm);
+        a/=10;
+        // prisntf("\n %d",arm);
+    }
+
+    if(arm==n)
+     printf("\n %d is Armstrong",n);
+    else
+     printf("\n %d is not Armstrong",n);
+}

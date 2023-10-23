@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+void main()
+{
+    int i=1,n,sum=0;
+    
+    printf("Enter the number of digits to find there sum = ");
+    scanf("%d",&n);
+
+    while(i<=n)
+    {
+        printf("%d  ",i);
+        sum+=i;
+        i++;
+    }
+
+    printf("The total sum is = %d", sum);
+}

@@ -1,0 +1,44 @@
+#include<stdio.h>
+
+void main()
+{
+    int a,b,n,i=0;
+
+    printf("Enter the first number = ");
+    scanf("%d",&a);
+    printf("Enter the second number = ");
+    scanf("%d",&b);
+
+    if(a>b)
+        n=a;
+    else 
+        n=b;
+
+    while(i==0)
+    {
+        if( n%a==0 && n%b==0)
+        {
+            printf("LCM of %d and %d is %d",a,b,n);
+            i=1;
+        }
+        else 
+            n++;
+    }
+
+    if (a<b)
+        n=a;
+    else
+        n=b;
+
+    while (i == 1)
+    {
+        if(a%n==0 && b%n==0)
+        {
+            printf("\nHCF of %d and %d is %d",a,b,n);
+            i=0;
+        }
+        else 
+            n--;
+    }
+           
+}

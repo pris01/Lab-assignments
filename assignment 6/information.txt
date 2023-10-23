@@ -1,0 +1,1 @@
+void pointer is a special type of pointer which can store the address of any type of variable. that means The void pointer can basically hold the value of any other type of pointer

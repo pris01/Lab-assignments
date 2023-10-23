@@ -1,0 +1,8 @@
+wap program in c which will have 4 user defined func with the name input , output, find_min, find_max, the above will work on a global array of integers with the operations 1.taking input, 2.giving output, 3.finding the minimun element of the array, 4.finding the max element of the array.(you can the return type and arguments for each of the four functions as per your need.
+
+wap in c to take four user defined functions with the names 1.print_odd, 2.print_even, 3.printf_prime, 4.print_armstrong.here the operations of the functions will be 1.print the odd numbers within a given range 2.print the even number within a given range, 3.print the prime numbers within a given numbers, 4.print the armstrong numbers.for all the core functions the range should be taken as the two arguments.
+
+wap in c which will have a user defined function check_leap, the above argument will take one argument of the year and printf its a leapyear or not.
+
+wap in c to take one user defined fucntion with the name for_check. The above function will take one interger argument. if the given argument is a palindrome number another user defined function with the name sum_digits will be called to print the some of all digits.if the number is not palindrome then another user defined function multi_digits will called to print the multiplication of all the digits.
+

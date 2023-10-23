@@ -1,0 +1,9 @@
+write a program in c to impliment the following 
+1. a user defined function with the name "input" 
+2.another user-defined function with the name "output"
+3.Impliment the above two function for the basic array input and output operations. The choice of return type and the arguments should be as per requirements.
+
+2. write a program in c to sort one array.take one user defined function for implementing the concept of sorting.
+3. write a program in c where you are required to use one user defined function which will take three numbers as arguments and will return the shortest the given numbers using conditional operator.
+4. to take input indias metro city names into one array. then print all the names which ends with 'i'.
+5. create one header file array.h in which the functions will be input, output, sorting, searching.

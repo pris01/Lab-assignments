@@ -1,0 +1,45 @@
+#include<stdio.h>
+
+void main()
+{
+    int a,b,n=1;
+
+    while(n!=6)
+    {
+        printf("\n1.Addition \n2.Substraction \n3.Multiplication \n4.Division");
+        printf("\nEnter your choice = ");
+        scanf("%d",&n);
+
+        if(n>=0 && n<=4 )
+        {
+            printf("\nEnter the first number = ");
+            scanf("%d",&a);
+
+            printf("\nEnter the second number = ");
+            scanf("%d",&b);
+        }
+
+        switch (n)
+        {
+            case 1 : 
+                    printf("\nAddition = %d ", a+b);
+                    break;
+            case 2 :
+                    printf("\nSubstraction = %d", a-b);
+                    break;
+            case 3 :
+                    printf("\nMultiplication =%d", a*b);
+                    break;
+            case 4 :
+                    printf("\nDivision = %d",a/b);                                                                  
+                    break;     
+            default :
+                    printf("\nwrong choice");                 
+        }
+      
+        printf("\n\n\n5.Perform some other operation \n6.Exit");  
+        printf("\nEnter your choice : ");
+        scanf("%d",&n);    
+    }
+    printf("Thank you");
+}
